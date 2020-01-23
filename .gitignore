@@ -1,0 +1,4 @@
+syntax: glob
+gensrc/*
+*.dot
+*.pyc

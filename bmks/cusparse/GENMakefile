@@ -1,0 +1,11 @@
+# expect to be in ROOT/gensrc/app/
+
+INCLUDES=-I../../rt/include -I../../rt/include/mgpu/include
+LIBS=-lcusparse -lggrt -lcurand
+LIBDIR=../../rt/lib
+COMPRESS_LIBS=-lz
+ARCH=sm_52
+
+# test harness searches for test_nontex
+test_nontex: kernel.cu
+	nvcc -g -O3 -arch $(ARCH) $(CXXFLAGS) $(NVCCFLAGS) $(INCLUDES) -L$(LIBDIR) $(LIBS) -o $@ $^ -lcudadevrt $(COMPRESS_LIBS)

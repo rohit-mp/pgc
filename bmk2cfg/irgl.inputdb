@@ -1,0 +1,190 @@
+[bmktest2]
+basepath = base/path
+version = 2
+
+[./europe_osm.mtx]
+flags = 
+name = europe_osm
+file = europe_osm.mtx
+format = text/mmarket
+
+[mtx_files/indochina-2004.mtx]
+flags = 
+name = indochina-2004
+file = mtx_files/indochina-2004.mtx
+format = text/mmarket
+
+[mtx_files/soc-LiveJournal1.mtx]
+flags = 
+name = soc-LiveJournal1
+file = mtx_files/soc-LiveJournal1.mtx
+format = text/mmarket
+
+[kokkos_binaries/circuit5M.kokkos.bin]
+flags = 
+name = circuit5M.kokkos
+file = kokkos_binaries/circuit5M.kokkos.bin
+format = bin/custom
+
+[kokkos_binaries/rgg_n_2_24_s0.kokkos.bin]
+flags = 
+name = rgg_n_2_24_s0.kokkos
+file = kokkos_binaries/rgg_n_2_24_s0.kokkos.bin
+format = bin/custom
+
+[kokkos_binaries/hollywood-2009.kokkos.bin]
+flags = 
+name = hollywood-2009.kokkos
+file = kokkos_binaries/hollywood-2009.kokkos.bin
+format = bin/custom
+
+[kokkos_binaries/indochina-2004.kokkos.bin]
+flags = 
+name = indochina-2004.kokkos
+file = kokkos_binaries/indochina-2004.kokkos.bin
+format = bin/custom
+
+[kokkos_binaries/kron_g500-logn21.kokkos.bin]
+flags = 
+name = kron_g500-logn21.kokkos
+file = kokkos_binaries/kron_g500-logn21.kokkos.bin
+format = bin/custom
+
+[kokkos_binaries/audikw_1.kokkos.bin]
+flags = 
+name = audikw_1.kokkos
+file = kokkos_binaries/audikw_1.kokkos.bin
+format = bin/custom
+
+[kokkos_binaries/Queen_4147.kokkos.bin]
+flags = 
+name = Queen_4147.kokkos
+file = kokkos_binaries/Queen_4147.kokkos.bin
+format = bin/custom
+
+[kokkos_binaries/Bump_2911.kokkos.bin]
+flags = 
+name = Bump_2911.kokkos
+file = kokkos_binaries/Bump_2911.kokkos.bin
+format = bin/custom
+
+[kokkos_binaries/soc-LiveJournal1.kokkos.bin]
+flags = 
+name = soc-LiveJournal1.kokkos
+file = kokkos_binaries/soc-LiveJournal1.kokkos.bin
+format = bin/custom
+
+[binary_files/Bump_2911.sym.gr]
+flags = symmetric
+name = Bump_2911.sym
+file = binary_files/Bump_2911.sym.gr
+format = bin/galois
+
+[binary_files/audikw_1.sym.gr]
+flags = symmetric
+name = audikw_1.sym
+file = binary_files/audikw_1.sym.gr
+format = bin/galois
+
+[binary_files/soc-LiveJournal1.sym.gr]
+flags = symmetric
+name = soc-LiveJournal1.sym
+file = binary_files/soc-LiveJournal1.sym.gr
+format = bin/galois
+
+[binary_files/hollywood-2009.sym.gr]
+flags = symmetric
+name = hollywood-2009.sym
+file = binary_files/hollywood-2009.sym.gr
+format = bin/galois
+
+[binary_files/indochina-2004.sym.gr]
+flags = symmetric
+name = indochina-2004.sym
+file = binary_files/indochina-2004.sym.gr
+format = bin/galois
+
+[binary_files/circuit5M.sym.gr]
+flags = symmetric
+name = circuit5M.sym
+file = binary_files/circuit5M.sym.gr
+format = bin/galois
+
+[binary_files/rgg_n_2_24_s0.sym.gr]
+flags = symmetric
+name = rgg_n_2_24_s0.sym
+file = binary_files/rgg_n_2_24_s0.sym.gr
+format = bin/galois
+
+[binary_files/europe_osm.sym.gr]
+flags = symmetric
+name = europe_osm.sym
+file = binary_files/europe_osm.sym.gr
+format = bin/galois
+
+[binary_files/Queen_4147.sym.gr]
+flags = symmetric
+name = Queen_4147.sym
+file = binary_files/Queen_4147.sym.gr
+format = bin/galois
+
+[binary_files/kron_g500-logn21.sym.gr]
+flags = symmetric
+name = kron_g500-logn21.sym
+file = binary_files/kron_g500-logn21.sym.gr
+format = bin/galois
+
+[kokkos_binaries/circuit5M.sym.bin]
+flags = symmetric
+name = circuit5M.sym
+file = kokkos_binaries/circuit5M.sym.bin
+format = bin/custom
+
+[kokkos_binaries/Queen_4147.sym.bin]
+flags = symmetric
+name = Queen_4147.sym
+file = kokkos_binaries/Queen_4147.sym.bin
+format = bin/custom
+
+[kokkos_binaries/hollywood-2009.sym.bin]
+flags = symmetric
+name = hollywood-2009.sym
+file = kokkos_binaries/hollywood-2009.sym.bin
+format = bin/custom
+
+[kokkos_binaries/Bump_2911.sym.bin]
+flags = symmetric
+name = Bump_2911.sym
+file = kokkos_binaries/Bump_2911.sym.bin
+format = bin/custom
+
+[kokkos_binaries/kron_g500-logn21.sym.bin]
+flags = symmetric
+name = kron_g500-logn21.sym
+file = kokkos_binaries/kron_g500-logn21.sym.bin
+format = bin/custom
+
+[kokkos_binaries/soc-LiveJournal1.sym.bin]
+flags = symmetric
+name = soc-LiveJournal1.sym
+file = kokkos_binaries/soc-LiveJournal1.sym.bin
+format = bin/custom
+
+[kokkos_binaries/audikw_1.sym.bin]
+flags = symmetric
+name = audikw_1.sym
+file = kokkos_binaries/audikw_1.sym.bin
+format = bin/custom
+
+[kokkos_binaries/indochina-2004.sym.bin]
+flags = symmetric
+name = indochina-2004.sym
+file = kokkos_binaries/indochina-2004.sym.bin
+format = bin/custom
+
+[kokkos_binaries/rgg_n_2_24_s0.sym.bin]
+flags = symmetric
+name = rgg_n_2_24_s0.sym
+file = kokkos_binaries/rgg_n_2_24_s0.sym.bin
+format = bin/custom
+

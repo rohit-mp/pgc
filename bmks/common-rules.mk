@@ -1,0 +1,2 @@
+$(DSTDIR):
+	mkdir -p $(DSTDIR)
