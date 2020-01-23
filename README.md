@@ -8,8 +8,9 @@ output from the computation to file. It is the infrastructure used by
 all the IrGL benchmarks, though it is not necessary to use this --
 merely convenient.
 
-
 ## Installation
+
+Obtain ggc from [here](https://www.cs.rochester.edu/~sree/ggc/).
 
 Run `./skelsetup.py setup $GGC` to setup the template directory,
  where `$GGC` is the root directory containing the ggc IrGL compiler.
@@ -17,26 +18,12 @@ Run `./skelsetup.py setup $GGC` to setup the template directory,
 This will create softlinks to `$GGC/rt` and `$GGC/skelapp` in the
 template directory and also setup variables in `bmks/local.mk` to
 point to `$GGC`.
-   
-## Create a benchmark directory from the template
 
-Let's suppose the benchmark name is `cc`.
+## Compilation
 
-Run `./skelsetup.py create cc` to create a new directory `bmks/cc`.
-
-## Create your code
-
-The default `Makefile` assumes your project structure (for the `cc`
-example) will be:
-
-  1. A `cc.py` file containing the IrGL code and the `gg_main` function.
-  2. A `cc_support.cu` file that contains auxiliary routines for use with skelapp.
-
-Modify `cc_support.cu` as you see fit.
-
-Add your IrGL code to `cc.py`.
-
-## Compile your code
+The implementations of the benchmarks can be found in seperate 
+folders in the `bmks` directory. (Assume `cc` is a benchmark for 
+the rest of the section).
 
 Run `make` in the `cc` directory. If everything went well, you should
 have see generated code in `../gensrc/cc`, with the following files:
