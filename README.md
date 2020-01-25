@@ -1,12 +1,14 @@
-# GGC/CUDA Benchmark Skelapp Template
+# Parallel Graph Coloring on GPU
+This repo contains source code for our paper "A Hybrid Graph 
+Coloring Algorithm for GPUs" ([link](https://arxiv.org/abs/1912.01478)). 
+We have re-implemented Iterative Parallel Graph Coloring (IPGC) and 
+Edge Based Graph Coloring based on [this](https://ieeexplore.ieee.org/document/7516086) 
+previous work. 
 
-This repository provides code that lets you create IrGL benchmarks
-that use the skelapp graph algorithm infrastructure. The skelapp
-infrastructure allows you to parse command line arguments, load graphs
-from disk, call the `gg_main` function, time it, as well as write
-output from the computation to file. It is the infrastructure used by
-all the IrGL benchmarks, though it is not necessary to use this --
-merely convenient.
+For IPGC, we have an optimized version of the algorithm that performs 
+36% faster than the previous work on average. A key optimization for 
+our algorithm was to heuristically choose between two modes of graph 
+traversal.
 
 ## Installation
 
