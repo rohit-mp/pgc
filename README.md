@@ -37,7 +37,12 @@ have see generated code in `../gensrc/cc`, with the following files:
   3. A `Makefile` to compile this using CUDA
 
 Run `make` in this directory to get `test_nontex`, a binary that can be
- run.
+ run.  
+
+__Note:__ IrGL optimizations provide better results. Running make in `bmks/ipgc_bit` with additional flags provides the best results:
+```bash
+make GGCFLAGS="--opt np --npf 8 --opt parcomb --opt oitergb"
+```
 
 ## Setup benchmark configuration
 
