@@ -21,6 +21,8 @@ This will create softlinks to `$GGC/rt` and `$GGC/skelapp` in the
 template directory and also setup variables in `bmks/local.mk` to
 point to `$GGC`.
 
+Also, the python packages `cgen` and `toposort` are required.
+
 ## Compilation
 
 The implementations of the benchmarks can be found in seperate 
@@ -34,7 +36,8 @@ have see generated code in `../gensrc/cc`, with the following files:
   2. A `support.cu` file (a soft-linked `cc_support.cu`)
   3. A `Makefile` to compile this using CUDA
 
-Run `make` in this directory to get `test`, a binary that can be run.
+Run `make` in this directory to get `test_nontex`, a binary that can be
+ run.
 
 ## Setup benchmark configuration
 
@@ -48,3 +51,8 @@ system which contains the graphs.
 In the `basepath`, the `.gr` format graphs are assumed to be in 
 `binary_files` directory, the `.mtx` format graphs are assumed to 
 be in `mtx_files` directory and kokkos graphs in `kokkos_binaries`.
+
+## Obtaining input graphs
+
+`tools` folder has the scripts to obtain the input graphs in the paper
+and converting them to the format expected by `ggc`.
