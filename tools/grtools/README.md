@@ -45,6 +45,9 @@ Create a graph of a particular (memory) size.
 
 Convert a dimacs9 format graph (i.e. text file) to the Galois .gr format.
 
+NOTE: This file has been changed to aid in mtx to dimacs to gr 
+conversion.
+
 ### grtool.py
 
 Various tools for Galois GR graph formats.
